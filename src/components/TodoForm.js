@@ -17,8 +17,9 @@ function ToDoForm() {
   }
 
   function addNote() {
-    console.log(noteTitle);
+    console.log(noteTitle, noteContent);
     setNoteTitle("");
+    setNoteContent("")
   }
 
   return <form>
